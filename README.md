@@ -22,14 +22,14 @@
    1. 点击`Reset`按钮可以重置四个文本框
    2. 点击`Compile`按钮可以编译ASN.1结构体，编译过程信息、错误信息在`Results`框中展示
    3. 选择`Encode`进行加密，选择`Decode`进行解密![image](https://user-images.githubusercontent.com/69131973/199275093-966a8d50-5cb1-4661-b975-76619e74ece4.png)
-      4. 点击`Encode/Decode`按钮可以对加密/解密框中的内容进行加密/解密，结果在`Output`框中展示
-      5. 选择编译格式，默认为 `uper`
-      6. 点击`Encode/Decode`按钮可以进行加密或解密
-      7. 结果在`Console Output`框中展示
-      8. 点击 `Open ASN1 Library`按钮可以打开ASN库文件，位置是当前exe所在目录下的`asn_dir`文件夹。将您所需的ASN库复制到该文件夹下，重新打开工具后即可查看到库文件![image](https://user-images.githubusercontent.com/69131973/199275128-9f1363b9-f717-4a3b-b071-a8c5e32687c6.png)
-      9. 单击选中某个库文件后，再点击`Compile`按钮即可编译该库文件
-      10. 双击选中某个库文件即可查看该库文件内容，点击`Compile`即可编译该库文件
-      11. 点击`Close ASN1 Library`即可返回文本输入界面
+   4. 点击`Encode/Decode`按钮可以对加密/解密框中的内容进行加密/解密，结果在`Output`框中展示
+   5. 选择编译格式，默认为 `uper`
+   6. 点击`Encode/Decode`按钮可以进行加密或解密
+   7. 结果在`Console Output`框中展示
+   8. 点击 `Open ASN1 Library`按钮可以打开ASN库文件，位置是当前exe所在目录下的`asn_dir`文件夹。将您所需的ASN库复制到该文件夹下，重新打开工具后即可查看到库文件![image](https://user-images.githubusercontent.com/69131973/199275128-9f1363b9-f717-4a3b-b071-a8c5e32687c6.png)
+   9. 单击选中某个库文件后，再点击`Compile`按钮即可编译该库文件
+   10. 双击选中某个库文件即可查看该库文件内容，点击`Compile`即可编译该库文件
+   11. 点击`Close ASN1 Library`即可返回文本输入界面
 
 
 
