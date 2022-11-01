@@ -1,0 +1,17 @@
+Struct DEFINITIONS ::= BEGIN
+--=================================================
+-- OperationID: BookStopTimeAchieved(0x0007)
+--=================================================
+OpBookStopTiAchieved-SetRequest ::= SEQUENCE{
+bookStopTiAchieved BOOLEAN
+}
+OpBookStopTiAchieved-Response ::= SEQUENCE{
+bookChrgnStsFb BookChrgnStsFb
+}
+BookChrgnStsFb ::= ENUMERATED{
+bookChrgnStsFb-Default (0),
+bookChrgnStsFb-Success (1),
+bookChrgnStsFb-Fail (2),
+bookChrgnStsFb-Finished (3)
+}
+END

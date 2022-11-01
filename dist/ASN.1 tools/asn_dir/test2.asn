@@ -1,0 +1,7 @@
+Test DEFINITIONS ::= BEGIN
+
+    TT::= SEQUENCE {
+        MARS INTEGER,
+    }
+
+END
